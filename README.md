@@ -14,11 +14,13 @@ test-> Test used to verify data integrity
 
 This code will setup a remote folder for dataset version. It is working as a git remote repository but for large dataset file
 
+0) git init
+
 1) dvc init {ONLY IF THE FIRST TIME}
 
 2) dvc remote add -d dvc-remote {PATH TO LOCAL REMOTE. Usually path is  /path/to/Local/NameDatasetRemote}
 
-3) Add Dataset folder inside Data/Dataset. Inside Dataset folder you need to add your data. This will be tracked by version {ONLY FIRST TIME}
+3) dvc add Data/Dataset  {Add Dataset folder inside Data/Dataset. Inside Dataset folder you need to add your data. This will be tracked by version} {ONLY FIRST TIME}
 
 4) git add Data/Dataset.dvc ./gitignore
 
