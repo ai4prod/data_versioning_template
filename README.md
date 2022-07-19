@@ -24,7 +24,7 @@ This code will setup a remote folder for dataset version. It is working as a git
    git commit -m "stop tracking Data/Dataset init dataset_name"
    dvc add Data/Dataset  {Add Dataset folder inside Data/Dataset. Inside Dataset folder you need to add your data. This will be tracked by version} 
 
-4) git add Data/Dataset.dvc ./gitignore
+4) git add Data/Dataset.dvc Data/.gitignore
 
 5) git commit -am "add dataset version 1"
 
