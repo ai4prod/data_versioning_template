@@ -2,11 +2,11 @@
 
 &nbsp;
 
-This folder contains data versioned using Dvc.
+This folder is a template that you can use as a reference. Different task (classification, segmentation ecc..) need data in different format.
+Just choose the right one and put your data following the below schema.
 
-DO NOT ADD THE CONTENT OF THIS FOLDER TO GIT
+DO NOT ADD THE CONTENT OF DATASET FOLDER TO GIT
 
-ONLY README IS TRACKED
 
 &nbsp;
 
