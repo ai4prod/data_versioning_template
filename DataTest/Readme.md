@@ -6,7 +6,7 @@ Folder for Data test
 # How it works
 
 
-### data_version_test_dataset
+### testDataset
 
 Inside this folder you need to create test that are general. You can have 2 type of test.
 
