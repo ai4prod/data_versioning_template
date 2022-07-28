@@ -14,7 +14,9 @@ DO NOT ADD THE CONTENT OF DATASET FOLDER TO GIT
 
 &nbsp;
 
-Create a **Data/Dataset** folder and follow one of the Data Task below based on what you have to do.
+Remove the content of Dataset folder and are your data based on your task. 
+
+**WARINING** Add your Data only in Dataset folder. 
 
 
 For example if you need to train a Classification Model put your data ad described in "Data for Classification Model" Section below
