@@ -1,3 +1,6 @@
 [submodule "data_version_script"]
 	path = data_version_script
 	url = https://github.com/ai4prod/data_version_script.git
+[submodule "DataTest/data_version_test_general"]
+	path = DataTest/data_version_test_general
+	url = https://github.com/ai4prod/data_version_test_general.git
