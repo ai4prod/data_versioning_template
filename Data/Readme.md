@@ -2,11 +2,11 @@
 
 &nbsp;
 
-This folder contains data versioned using Dvc.
+This folder is a template that you can use as a reference. Different task (classification, segmentation ecc..) need data in different format.
+Just choose the right one and put your data following the below schema.
 
-DO NOT ADD THE CONTENT OF THIS FOLDER TO GIT
+DO NOT ADD THE CONTENT OF DATASET FOLDER TO GIT
 
-ONLY README IS TRACKED
 
 &nbsp;
 
@@ -14,7 +14,9 @@ ONLY README IS TRACKED
 
 &nbsp;
 
-Create a **Data/Dataset** folder and follow one of the Data Task below based on what you have to do.
+Remove the content of Dataset folder and are your data based on your task. 
+
+**WARINING** Add your Data only in Dataset folder. 
 
 
 For example if you need to train a Classification Model put your data ad described in "Data for Classification Model" Section below
