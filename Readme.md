@@ -32,6 +32,15 @@ This code will setup a remote folder for dataset version. It is working as a git
 
 7) dvc push {Push dataset to remote localtion /path/to/Local/NameDatasetRemote }
 
+
+# How to Setup remote with SSH
+
+dvc remote add --default ssh-storage ssh://example.com/path/to/storage
+dvc remote modify ssh-storage user ${CHANGE WITH USER}
+dvc remote modify ssh-storage port 22
+dvc remote modify --local ssh-storage password ${CHANGE WITH PASSWORD}
+
+
 # How to Add new Data and Version
 
 1) Add new Data to Data/Dataset folder
